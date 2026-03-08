@@ -107,132 +107,966 @@
 </header>
 
 <main class="main">
-    <!-- Page Title -->
-    <div class="page-title dark-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+  <!-- Page Title -->
+  <div class="page-title dark-background">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+      <h1 class="mb-2 mb-lg-0">Academic Portfolio</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li class="current">Research & Achievements</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <!-- Portfolio Section -->
+  <section id="portfolio-details" class="portfolio-details section">
 
-        <div class="row gy-4">
+    <div class="container" data-aos="fade-up">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+      <div class="row gy-4">
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
+        <!-- Image Slider -->
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper init-swiper">
+
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 4000 },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
                 }
-              </script>
+              }
+            </script>
 
-              <div class="swiper-wrapper align-items-center">
+            <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-1.webp" alt="Portfolio Image" class="img-fluid" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-10.webp" alt="Portfolio Image" class="img-fluid" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid" loading="lazy">
-                </div>
-
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/event7.png" class="img-fluid">
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-left" data-aos-delay="200">
-              <h3>Project Information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web Development</li>
-                <li><strong>Client</strong>: Victoria Technologies</li>
-                <li><strong>Project date</strong>: 01 March, 2024</li>
-                <li><strong>Project URL</strong>: <a href="#" target="_blank">www.example.com</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-12">
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Project Overview</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-              <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-              </p>
-
-              <div class="features mt-4">
-                <h3>Key Features</h3>
-                <div class="row gy-3">
-                  <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
-                      <i class="bi bi-check-circle-fill"></i>
-                      <h4>Responsive Design</h4>
-                      <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
-                      <i class="bi bi-shield-check"></i>
-                      <h4>Advanced Security</h4>
-                      <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
-                      <i class="bi bi-graph-up"></i>
-                      <h4>Performance Optimization</h4>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="700">
-                      <i class="bi bi-gear"></i>
-                      <h4>Easy Integration</h4>
-                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/event8.png" class="img-fluid">
               </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/event9.png" class="img-fluid">
+              </div>
+
             </div>
+
+            <div class="swiper-pagination"></div>
+
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="col-lg-4">
+          <div class="portfolio-info">
+            <h3>Profile Summary</h3>
+            <ul>
+              <li><strong>Field</strong>: IoT, AI, Antenna Design</li>
+              <li><strong>Publications</strong>: 30+ Research Papers</li>
+              <li><strong>Books</strong>: 3 ,<strong>Book Chapters</strong>: 01</li>
+              <li><strong>Copyrights</strong>: 04 ,<strong>Patent Published</strong>: 05</li>
+              <li><strong>Experience</strong>: Teaching & Research</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div class="col-lg-12">
+
+          <div class="portfolio-description">
+
+            <h2>Research Publications & Academic Contributions</h2>
+
+            <p>
+              The following section highlights academic achievements including research papers,
+              patents, books, workshops, and professional recognitions in the fields of
+              Internet of Things, Artificial Intelligence, Wireless Communication,
+              Antenna Design, and Data Science.
+            </p>
+
+            <!-- National Papers -->
+            <div class="portfolio-description">
+
+<h2>National Paper Presentations</h2>
+
+<p>
+This section highlights research papers presented at national
+level conferences in the areas of digital communication,
+embedded systems, industrial automation and Internet of Things.
+</p>
+
+<div class="accordion" id="nationalPaperAccordion">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#nationalpapers">
+National Conference Paper Presentations
+</button>
+</h2>
+
+<div id="nationalpapers" class="accordion-collapse collapse show" data-bs-parent="#nationalPaperAccordion">
+
+<div class="accordion-body">
+
+<ol>
+
+<li>
+<strong>Crest Factor Reduction Technique in Digital Modulator</strong><br>
+Conference: National Conference at PDVVP’s College of Engineering<br>
+Location: Ahmednagar, Maharashtra<br>
+Date: 9–10 March 2007
+</li>
+
+<li>
+<strong>PC Based Rate of Rise in Temperature Indicator and Controller</strong><br>
+Conference: National Conference at NDMVP’s College of Engineering<br>
+Location: Nashik, Maharashtra<br>
+Date: 23–24 January 2009
+</li>
+
+<li>
+<strong>PC Based Automatic Sprinkler Head Sensitivity Test</strong><br>
+Conference: National Conference at RGI’s College of Engineering<br>
+Location: Chas, Ahmednagar, Maharashtra<br>
+Date: 14 February 2009
+</li>
+
+<li>
+<strong>Real-time Data Analytics and Visualization for IoT Applications using Tableau Platform</strong><br>
+Conference: 66th Annual IETE Convention (AIC-2023)<br>
+Organizer: Institute of Electronics and Telecommunication Engineers (IETE), Pune Local Center<br>
+Date: 16–17 September 2023
+</li>
+
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+            <!-- International Papers -->
+            <div class="portfolio-description">
+
+<h2>Research Publications</h2>
+
+<p>
+This section presents research papers published in international journals,
+conference proceedings and indexed publications in the fields of Internet
+of Things (IoT), wireless communication, antenna design, artificial
+intelligence and signal processing.
+</p>
+
+<div class="accordion" id="publicationAccordion">
+
+<!-- Journal Publications -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#journals">
+Journal Publications
+</button>
+</h2>
+
+<div id="journals" class="accordion-collapse collapse show" data-bs-parent="#publicationAccordion">
+<div class="accordion-body">
+
+<ol>
+
+<li>Micro-Generator using Ferroelectric Materials for Small Scale Energy Harvesting Devices – IJAMTES, ISSN: 2249-7455, March 2012.</li>
+
+<li>Satellite Image Resolution Enhancement – IIJECS, May 2013.</li>
+
+<li>Environmentally Robust Motion Detection for Video Surveillance – IIJECS, June 2013.</li>
+
+<li>Effect of Different Substrate Material on Performance of H Shaped Patch Antenna – IJIRCCE, Volume 2 Issue 11, Nov 2014.</li>
+
+<li>Simulation of Rectangular Microstrip Patch Antenna – IJIRCCE, Volume 4 Issue 1, Jan 2015.</li>
+
+<li>Localization of License Plate Number Using Dynamic Image Processing Techniques – IRJET, Volume 2 Issue 3, Jun 2015.</li>
+
+<li>Fault Detection in Electric Motors Using Vibration Analysis and DSP Processor – IJIRSET, Volume 5 Issue 6, Jun 2016.</li>
+
+<li>Real Time Speaker Recognition using MFCC, VQLBG and CMM Technique – IJIRSET, Volume 5 Issue 6, Jun 2016.</li>
+
+<li>ARM based Real Time Induction Fault Analysis – IJEEE, Volume 8 Issue 2, Dec 2016.</li>
+
+<li>Implementation of FPGA using ARM Processor – IJEET, Volume 5 Issue 2, March 2017.</li>
+
+<li>Implementation of Discrete Wavelet Transform on FPGA for Image Compression – ICAEASM, Aug 2017.</li>
+
+<li>Internet of Things based Advanced Online Examination using Raspberry Pi – IJETMR, May 2018.</li>
+
+<li>Advanced Online Examination using Raspberry Pi based on IoT – JETIR, May 2019.</li>
+
+<li>Image Processing Facial Expression for Music Recommendation – IJARCCE, Jan 2022.</li>
+
+<li>Smart Phone Recommendation using User Reviews and Product Specifications – IJSREM, April 2022.</li>
+
+<li>A Survey on Design and Analysis of MIMO Antenna Array for 5G Application – IJHS, May 2022.</li>
+
+<li>Performance Analysis of 4 Port MIMO Antenna Array for 5G Application – NeuroQuantology Journal, Sept 2022.</li>
+
+<li>A Compact Design of MIMO Antenna Array for 2 GHz Wireless Applications – SGVU Journal of Engineering & Technology, Nov 2022.</li>
+
+<li>Synopser: Data Summarization Web Application – IJARSCT, Nov 2022.</li>
+
+<li>E-Voting Using Blockchain – IJARSCT, Nov 2022.</li>
+
+<li>4-Port MIMO Antenna Simulation and Analysis for 5G Portable Applications – SGVU Journal of Engineering & Technology, Feb 2023.</li>
+
+<li>4-Port MIMO Antenna Diversity Analysis for 5G Applications – International Journal of Intelligent Systems and Applications in Engineering (Scopus Indexed), 2023.</li>
+
+</ol>
+
+</div>
+</div>
+</div>
+
+<!-- Conference Publications -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conference">
+Conference Publications
+</button>
+</h2>
+
+<div id="conference" class="accordion-collapse collapse" data-bs-parent="#publicationAccordion">
+<div class="accordion-body">
+
+<ol>
+
+<li>Implementation of Low Power Nine Axis Sensor for AHRS using Direction Cosine Matrix Algorithm – ICDSIP, March 2017.</li>
+
+<li>A Review on Enabling 5G in India – ICAETBM 2022, NMIET Talegaon, Pune.</li>
+
+<li>Simulation and Analysis of MIMO Antenna Array for 5G Application – ICAETBM 2022, SCOE Kopargaon.</li>
+
+<li>4-Port MIMO Antenna Simulation and Analysis for 5G Portable Applications – National Conference TMRI 2022, SGVU Jaipur.</li>
+
+<li>4-Port MIMO Antenna Simulation and Analysis for Improved FBR in 5G Portable Applications – ICRTET 2023, Pune.</li>
+
+<li>Synopser – Text Summarization Web Application – AIMTMREF 2023, SKNSITS Lonavala.</li>
+
+</ol>
+
+</div>
+</div>
+</div>
+
+<!-- International Indexed Publications -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#international">
+Recent International Publications
+</button>
+</h2>
+
+<div id="international" class="accordion-collapse collapse" data-bs-parent="#publicationAccordion">
+<div class="accordion-body">
+
+<ol>
+
+<li>Real-time Data Visualization for IoT Applications using Tableau Platform – IEEE International Conference on Emerging Smart Computing and Informatics (ESCI), Pune, 2024.</li>
+
+<li>Real-Time Data Visualization for IoT Applications using Digital Twin Technology – International Conference on Computational Intelligence & IoT (ICCIIOT), Pakistan, Dec 2024.</li>
+
+<li>NLP-Based Semantic Signature Analysis for Alzheimer’s Detection in Clinical Records – Asia Pacific Conference on Innovation in Technology (APCIT-2025), Mysuru.</li>
+
+</ol>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+<!-- Books Published -->
+<div class="portfolio-description">
+
+<h2>Books and Book Chapters Published</h2>
+
+<p>
+This section highlights authored books, book chapters and editorial
+contributions in the fields of Internet of Things (IoT), antenna design,
+wireless communication and smart systems.
+</p>
+
+<div class="accordion" id="booksAccordion">
+
+<!-- Books -->
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#books">
+Books Published
+</button>
+</h2>
+
+<div id="books" class="accordion-collapse collapse show" data-bs-parent="#booksAccordion">
+
+<div class="accordion-body">
+
+<ol>
+
+<li>
+<strong>The Internet of Things Connecting Everything – Introduction, Sensor, Protocol, Application</strong><br>
+Publisher: LAP Lambert Academic Publishing<br>
+ISBN: 978-620-5-50976-0<br>
+Publication Date: 19 October 2022
+</li>
+
+<li>
+<strong>Design and Analysis of 4 Port MIMO Antenna Array for 5G Application</strong><br>
+Publisher: LAP Lambert Academic Publishing<br>
+ISBN: 978-620-6-76736-7<br>
+Publication Date: 10 August 2023
+</li>
+
+</ol>
+
+</div>
+</div>
+</div>
+
+<!-- Book Chapters -->
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bookchapters">
+Book Chapters Published
+</button>
+</h2>
+
+<div id="bookchapters" class="accordion-collapse collapse" data-bs-parent="#booksAccordion">
+
+<div class="accordion-body">
+
+<ol>
+
+<li>
+<strong>Practical and Innovative Applications of IoT & IoT Networks – Smart Home</strong><br>
+Book Title: Futuristic Trends in IoT<br>
+Series: IIP Series, Volume 3<br>
+Pages: 47–58<br>
+Publication Date: May 2024<br>
+e-ISBN: 978-93-6252-172-9
+</li>
+
+</ol>
+
+</div>
+
+</div>
+</div>
+
+<!-- Editorial Contribution -->
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#editorial">
+Editorial Contribution
+</button>
+</h2>
+
+<div id="editorial" class="accordion-collapse collapse" data-bs-parent="#booksAccordion">
+
+<div class="accordion-body">
+
+<ul>
+
+<li>
+<strong>Book Chapter Editor</strong><br>
+Book Series ID: 058IIP2026S1_G1<br>
+Book Title: <em>Advances in Sensors and Internet of Things: Smart System, Connectivity and Applications</em><br>
+Volume: 06 (2026)<br>
+Publisher: Iterative International Publisher, Karnataka
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+            <!-- Patents -->
+            <div class="portfolio-description">
+
+<h2>Copyrights and Patents</h2>
+
+<p>
+This section highlights intellectual property contributions including
+registered copyrights and published or granted patents in the
+fields of antenna design, assistive technologies, artificial intelligence,
+and smart devices.
+</p>
+
+<div class="accordion" id="patentAccordion">
+
+<!-- Copyright Section -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#copyright">
+Copyright Registrations
+</button>
+</h2>
+
+<div id="copyright" class="accordion-collapse collapse show" data-bs-parent="#patentAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>
+<strong>Design of 4 Port Microstrip Antenna Array</strong><br>
+Diary Number: 17922/2022-CO/L (26 Aug 2022)<br>
+Status: Registered<br>
+ROC No: L-119885/2022 (21 Dec 2022)
+</li>
+
+<li>
+<strong>Be My Eyes App for Blind People</strong><br>
+Diary Number: 2252/2024-CO/L (19 Jan 2024)<br>
+Status: Registered<br>
+ROC No: L-144557/2024 (01 Mar 2024)
+</li>
+
+<li>
+<strong>SIGN GESTURE: Language to Text Translator</strong><br>
+Diary Number: 2187/2024-CO/L (19 Jan 2024)<br>
+Status: Registered<br>
+ROC No: L-145696/2024 (01 Mar 2024)
+</li>
+
+<li>
+<strong>Vibrotactile Gloves for Parkinson's Disease Patients</strong><br>
+Diary Number: 34928/2024-CO/L (08 Nov 2024)<br>
+Status: Registered<br>
+ROC No: L-144314/2025 (01 Jan 2025)
+</li>
+
+<li>
+<strong>A Clever Way to Refine the Title and Turn a Research Variable into a Research Objective</strong><br>
+Diary Number: 10523/2025-CO/L (21 Mar 2025)<br>
+Certificate No: LD-20250168030 (14 July 2025)
+</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Patent Section -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#patents">
+Patents (Published / Granted)
+</button>
+</h2>
+
+<div id="patents" class="accordion-collapse collapse" data-bs-parent="#patentAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>
+<strong>Design of 4 Port MIMO Antenna Array for 5G Application</strong><br>
+Type: Utility Patent (Published)<br>
+Application Number: 202321025187<br>
+Filed: 03 Apr 2023 (2:29 PM)<br>
+Publication Date: 05 May 2023
+</li>
+
+<li>
+<strong>Wearable Smart Shoes</strong><br>
+Type: Design Patent (Granted)<br>
+Design Number: 456350-001<br>
+Granted On: 07 Aug 2025<br>
+Class: 02-04
+</li>
+
+<li>
+<strong>Portable Grid Analyzing Device</strong><br>
+Type: Design Patent (Granted)<br>
+Design Number: 467615-001<br>
+Granted On: 09 Oct 2025<br>
+Class: 10-05
+</li>
+
+<li>
+<strong>Virtual Reality Remote Visit Telepresence Device</strong><br>
+Type: Design Patent (Granted)<br>
+Design Number: 476092-001<br>
+Granted On: 08 Jan 2026<br>
+Class: 14-03
+</li>
+
+<li>
+<strong>AI Server Nanofluid Cooling Device</strong><br>
+Type: Design Patent (Granted)<br>
+Design Number: 477131-001<br>
+Granted On: 05 Feb 2026<br>
+Class: 23-04
+</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+            <!-- Workshops -->
+            
+
+<div class="portfolio-description">
+
+<h2>Workshops, FDPs & Seminars</h2>
+
+<p>
+This section highlights the workshops, faculty development programs,
+training programs and seminars attended and conducted in the areas
+of emerging technologies, research and engineering education.
+</p>
+
+<div class="accordion" id="workshopAccordion">
+
+<!-- Workshops Conducted -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#conducted">
+Workshops Conducted
+</button>
+</h2>
+
+<div id="conducted" class="accordion-collapse collapse show" data-bs-parent="#workshopAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Conducted Workshop on <strong>Arduino Fundamentals</strong> for Engineering Students</li>
+
+<li>Conducted Workshop on <strong>Internet of Things (IoT)</strong> Applications</li>
+
+<li>Hands-on Training Program on <strong>Antenna Design and Testing</strong></li>
+
+<li>Organized National Level Workshop on <strong>IoT – Transformation in Engineering Education</strong></li>
+
+<li>Technical Workshop on <strong>Embedded Systems and RTOS</strong></li>
+
+<li>Workshop on <strong>Machine Learning Applications in IoT</strong></li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- FDP Attended -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fdp">
+Faculty Development Programs (FDP)
+</button>
+</h2>
+
+<div id="fdp" class="accordion-collapse collapse" data-bs-parent="#workshopAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Faculty Development Program on <strong>Artificial Intelligence and Machine Learning</strong></li>
+
+<li>FDP on <strong>Internet of Things and Smart Systems</strong></li>
+
+<li>FDP on <strong>Data Science and Big Data Analytics</strong></li>
+
+<li>FDP on <strong>Industry 4.0 Technologies</strong></li>
+
+<li>FDP on <strong>Advanced Wireless Communication and 5G Technology</strong></li>
+
+<li>FDP on <strong>Research Methodology and Academic Writing</strong></li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Seminars -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seminars">
+Seminars & Conferences
+</button>
+</h2>
+
+<div id="seminars" class="accordion-collapse collapse" data-bs-parent="#workshopAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Participated in Seminar on <strong>Emerging Trends in Artificial Intelligence</strong></li>
+
+<li>Seminar on <strong>Smart Cities and IoT Applications</strong></li>
+
+<li>Conference on <strong>Wireless Communication and Networking</strong></li>
+
+<li>Seminar on <strong>Cyber Security and Data Privacy</strong></li>
+
+<li>Technical Seminar on <strong>5G Communication Systems</strong></li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Training Programs -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#training">
+Professional Training Programs
+</button>
+</h2>
+
+<div id="training" class="accordion-collapse collapse" data-bs-parent="#workshopAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Industrial Training Program on <strong>Embedded Systems Development</strong></li>
+
+<li>Professional Training on <strong>Python for Data Science</strong></li>
+
+<li>Training Program on <strong>IoT System Design and Implementation</strong></li>
+
+<li>Advanced Training on <strong>Machine Learning using Python</strong></li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+            <!-- Achievements -->
+            <div class="portfolio-description">
+
+<h2>Achievements and Awards</h2>
+
+<p>
+The following section highlights academic recognitions, peer review
+contributions, conference leadership roles, research achievements,
+grants, invited talks and institutional responsibilities.
+</p>
+
+<div class="accordion" id="achievementAccordion">
+
+<!-- Peer Reviewer -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#peerreview">
+Peer Reviewer Contributions
+</button>
+</h2>
+
+<div id="peerreview" class="accordion-collapse collapse show" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Peer Reviewer – Indian Journal of Science and Technology (IJST)</li>
+<li>Peer Reviewer – Indonesian Journal of Electrical and Computer Engineering (IJECE)</li>
+<li>Peer Reviewer – 66th Annual IETE Convention (AIC)</li>
+<li>Peer Reviewer – Asian Journal of Research in Computer Science (AJRCS)</li>
+<li>Peer Reviewer – Journal of Engineering Research and Reports</li>
+<li>Peer Reviewer – BP International Publications</li>
+<li>Peer Reviewer – International Journal of Research and Reviews in Physics (IJRRP)</li>
+<li>Peer Reviewer – International Conference on Applications of AI in Engineering (ICAAIE-25)</li>
+<li>Peer Reviewer – IEEE National Conference Technicoknockdown 2025</li>
+<li>Peer Reviewer – AICTE Sponsored ICAESRTA-2K25 Conference</li>
+<li>Peer Reviewer – ICITET 2025 International Conference</li>
+<li>Peer Reviewer – ICITSC 2025 FusionX Global Conference</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Session Chair -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sessionchair">
+Session Chair & Conference Roles
+</button>
+</h2>
+
+<div id="sessionchair" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Session Chair – IEEE Global Conference on Wireless Computing and Networking (GCWCN-2025)</li>
+<li>Session Chair – IEEE International Conference for Convergence in Technology (I2CT-2024)</li>
+<li>Session Chair – International Conference AIMTREF-2025</li>
+<li>Co-Chair – cPGCON 2018 Conference at SIT Lonavala</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Awards -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#awards">
+Awards & Recognition
+</button>
+</h2>
+
+<div id="awards" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Recognized as <strong>Innovation Ambassador</strong> – MoE Innovation Cell & AICTE</li>
+
+<li><strong>Best Teacher Award</strong> – Sinhgad Institute of Technology, Lonavala (2023)</li>
+
+<li>Successfully completed <strong>PhD Viva-Voce</strong> titled
+“Design and Analysis of MIMO Antenna Array for 5G Applications”
+from Suresh Gyan Vihar University, Jaipur (2023)</li>
+
+<li>Certificate of Appreciation – HackNexus Agentic AI Hackathon with IBM Watsonx (2025)</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- NPTEL -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nptel">
+NPTEL Certifications
+</button>
+</h2>
+
+<div id="nptel" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>NPTEL Elite Certificate – Demystifying Networking (2023)</li>
+
+<li>NPTEL Elite Certificate – Python for Data Science (2024)</li>
+
+<li>Top Performer Mentor – NPTEL Python for Data Science (Mentored 55 Students)</li>
+
+<li>NPTEL Elite Certificate – Industry 4.0 and Industrial IoT</li>
+
+<li>NPTEL Elite Certificate – Introduction to Internet of Things</li>
+
+<li>NPTEL Course Completed – Evolution of Air Interface towards 5G</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Grants -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#grants">
+Research Grants & Funding
+</button>
+</h2>
+
+<div id="grants" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Seed Money Grant ₹1,40,000 – Establishment of Anechoic Chamber (SIT Lonavala)</li>
+
+<li>SPPU Grant ₹2,50,000 – National Workshop on IoT: Transformation in Engineering Education</li>
+
+<li>Designed Skill-Based Training Syllabus for Antenna Design & Testing</li>
+
+<li>Published Study Material on “Internet of Things” on vSelfLearn Platform</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Academic Roles -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#academicroles">
+Academic Responsibilities (SPPU)
+</button>
+</h2>
+
+<div id="academicroles" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Chairman – Internet of Things (TE IT 2019) – SPPU</li>
+
+<li>Chairman – Internet of Things (BE IT Elective)</li>
+
+<li>Chairman – ME Project Phase I & II</li>
+
+<li>Chairman – Applied Algorithms (ME IT)</li>
+
+<li>Syllabus Setter – Information and Storage Retrieval</li>
+
+<li>Syllabus Setter – Embedded System and RTOS</li>
+
+<li>Paper Setter & Examiner – Multiple SPPU Subjects</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Resource Person -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resourceperson">
+Resource Person & Invited Talks
+</button>
+</h2>
+
+<div id="resourceperson" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Resource Person – IETE AI & ML for IoT Program</li>
+
+<li>Guest Lecture – Internet of Things at SKNSITS</li>
+
+<li>Workshop Speaker – Arduino Fundamentals</li>
+
+<li>Faculty Orientation – Information Storage & Retrieval</li>
+
+<li>Motivational Talk – Double Diamond Innovation Approach</li>
+
+<li>Faculty Orientation – IoT Curriculum SPPU</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Result Achievements -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#results">
+Academic Result Achievements
+</button>
+</h2>
+
+<div id="results" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Multimedia Technology – 90.14% Result (SPPU)</li>
+
+<li>Data Science & Big Data Analytics – 93.33% Result</li>
+
+<li>Natural Language Processing – 90.91% Result</li>
+
+<li>Internet of Things – 100% Result</li>
+
+<li>Mini Project – 100% Result</li>
+
+<li>Embedded System Design – 100% Result</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<!-- Leadership -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leadership">
+Leadership & Administrative Roles
+</button>
+</h2>
+
+<div id="leadership" class="accordion-collapse collapse" data-bs-parent="#achievementAccordion">
+<div class="accordion-body">
+
+<ul>
+
+<li>Appointed as <strong>Dean Academics</strong> – Dr. D. Y. Patil College of Engineering and Innovation, Pune</li>
+
+<li>Organized Copyright Drive – 50 Copyrights filed in one day</li>
+
+<li>Judge – Project Competitions at SIT & SKNSIT</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+    </div>
 
-  </main>
+  </section>
+
+</main>
 
   <footer id="footer" class="footer position-relative">
 
