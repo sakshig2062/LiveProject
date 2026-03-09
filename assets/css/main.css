@@ -2598,3 +2598,20 @@ color:inherit;
 .contact-info a:hover{
 color:#0d6efd;
 }
+.copyright{
+text-align:center;
+padding:15px;
+background:#111;
+color:white;
+}
+
+.copyright a{
+color:#00bfff;
+text-decoration:none;
+font-weight:bold;
+}
+
+.copyright a:hover{
+text-decoration:underline;
+color:#4facfe;
+}
